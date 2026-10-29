@@ -1,0 +1,38 @@
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# File konfigurasi environment
+.env
+.env.*
+
+# IDE dan editor
+.vscode/
+.idea/
+
+# Sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File log dan sementara
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Hasil pengujian otomatis
+.coverage
+htmlcov/
+.pytest_cache/
+
+# File keluaran rekap yang dibuat program
+data/hasil_rekap.txt
+hasil/*.txt
